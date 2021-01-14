@@ -1,0 +1,117 @@
+body
+{
+	font-family: 'Segoe UI';	
+	line-height: 1.5;
+	background-color: rgb(241,245,248);
+}
+.container
+{
+	background-color: white;
+	margin : auto;
+	margin-top: 10rem;
+	width: 600px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.container:hover
+{
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+.heading
+{
+	font-size: 1.8rem;
+	text-align: center;
+	padding: 15px;
+}
+.form
+{
+	text-align: center;
+}
+.form input
+{
+	outline: none;
+	background-color: rgb(241,245,248);
+	border : 0px;
+	height: 30px;
+	width: 350px;
+	font-size: 1.1rem;
+	padding-left: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.form input:hover
+{
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);	
+}
+button
+{
+	outline: none;
+	border : 0px;
+}
+.form button
+{
+	outline: none;
+	border: 0px;
+	background-color: skyblue;
+	height: 35px;
+	font-size: 1.05rem;
+	width: 90px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.form button:hover
+{
+	background-color: lightblue;
+}
+.item-list
+{
+	margin : auto;
+	width : 400px;
+	margin-top: 30px;
+}
+.item
+{
+	width: 300px;
+	margin: auto;
+	margin-top: 10px;
+}
+.edit-btn, .del-btn
+{
+	float: right;
+	margin-right: 10px;
+	background-color: white;
+}
+.edit-btn
+{
+	color: green;
+}
+.edit-btn:hover
+{
+	background-color: white;
+	color : black;
+}
+.del-btn
+{
+	color: red;
+}
+.del-btn:hover
+{
+	background-color: white;
+	color : black;
+}
+.reset-btn
+{
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	margin: auto;
+	background-color: skyblue;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 225px;
+}
+.reset-btn:hover
+{
+	background-color: lightblue;
+}
+

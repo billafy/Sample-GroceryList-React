@@ -1,0 +1,23 @@
+.successAlert span, .errorAlert span
+{
+	font-weight: bold;
+}
+.successAlert, .errorAlert
+{
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 3px;
+	width: min-width;
+	height: 20px;
+	width: 250px;
+	padding: 5px;
+}
+.successAlert
+{
+	background-color: lightgreen;
+}
+.errorAlert
+{
+	background-color: tomato;
+}
